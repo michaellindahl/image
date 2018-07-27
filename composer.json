@@ -15,9 +15,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/michaellindahl/glide"
+        }
+    ],
     "require": {
         "php": "^7.0",
-        "league/glide": "^1.2",
+        "league/glide": "dev-feature/add-custom-manipulations",
         "spatie/image-optimizer": "^1.0",
         "spatie/temporary-directory": "^1.0.0",
         "symfony/process": "^3.0|^4.0"
